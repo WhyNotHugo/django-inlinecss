@@ -14,7 +14,7 @@ template language.
 
 - BeautifulSoup
 - cssutils
-- Python 2.7+,3.4+
+- Python 3.6+
 - Django 1.11+
 
 
