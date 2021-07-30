@@ -11,7 +11,7 @@ from django.template.loader import get_template
 from django.test import TestCase
 from django.test.utils import override_settings
 from django.utils.safestring import mark_safe
-from mock import patch
+from unittest.mock import patch
 
 
 class InlinecssTests(TestCase):
@@ -114,13 +114,13 @@ class InlinecssTests(TestCase):
         template = get_template('unicode_context_variables.html')
 
         rendered = template.render({
-            'unicode_string': u'I love playing with my pi\xf1ata'})
+            'unicode_string': 'I love playing with my pi\xf1ata'})
         self.assertRegex(
             rendered,
             '<div class="bar" style="padding: 10px 15px 20px 25px">')
         self.assertRegex(
             rendered,
-            u'I love playing with my pi\xf1ata')
+            'I love playing with my pi\xf1ata')
 
     def test_comments_are_ignored(self):
         """
