@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/roverdotcom/django-inlinecss.png?branch=master)](https://travis-ci.org/roverdotcom/django-inlinecss)
+[![Build Status](https://travis-ci.org/roverdotcom/django-inlinecss.svg?branch=master)](https://travis-ci.org/roverdotcom/django-inlinecss)
 
 ## About
 
@@ -14,8 +14,8 @@ template language.
 
 - BeautifulSoup
 - cssutils
-- Python 2.7+,3.4+
-- Django 1.11+
+- Python 3.6+
+- Django 2.2+
 
 
 #### Step 2: Install django_inlinecss
@@ -64,6 +64,9 @@ INSTALLED_APPS = (
 ```
 
 ## Acknowledgements
+
+This is a fork of django-inlinecss, with updates for newer versions of Python
+and Django.
 
 Thanks to Tanner Netterville for his efforts on [Pynliner](https://github.com/rennat/pynliner).
 
