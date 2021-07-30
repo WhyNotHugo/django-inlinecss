@@ -65,6 +65,9 @@ INSTALLED_APPS = (
 
 ## Acknowledgements
 
+This is a fork of django-inlinecss, with updates for newer versions of Python
+and Django.
+
 Thanks to Tanner Netterville for his efforts on [Pynliner](https://github.com/rennat/pynliner).
 
 Thanks to Thomas Yip for his unit tests on the `soupselect` module. These tests

@@ -8,10 +8,10 @@ from setuptools import setup
 
 
 # Package meta-data.
-NAME = 'django-inlinecss'
+NAME = 'django-inlinecss-redux'
 SRC_DIR = 'django_inlinecss'
 DESCRIPTION = 'A Django app useful for inlining CSS (primarily for e-mails)'
-URL = 'https://github.com/roverdotcom/django-inlinecss'
+URL = 'https://github.com/WhyNotHugo/django-inlinecss'
 EMAIL = 'philip@rover.com'
 AUTHOR = 'Philip Kimmey'
 REQUIRES_PYTHON = '>=3.6'
